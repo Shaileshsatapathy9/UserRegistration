@@ -22,6 +22,9 @@ namespace UserRegistration
 
             Console.WriteLine("enter the password:");
             Console.WriteLine(patterns.ValidatePassword(Console.ReadLine()));
+
+            Console.WriteLine("enter the password:");
+            Console.WriteLine(patterns.ValidatePassword(Console.ReadLine()));
         }
     }
 }
